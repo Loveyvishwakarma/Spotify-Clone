@@ -119,7 +119,24 @@
                 <div class="line"></div>
             </div>
         </div>
-        <div class="music-player"> Music Player</div>
+        <div class="music-player"> 
+            <div class="album"></div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./images/player_icon1.png" class="player-control-icon">
+                    <img src="./images/player_icon2.png" class="player-control-icon">
+                    <img src="./images/player_icon3.png" class="player-control-icon" style="height: 2rem; opacity: 1;">
+                    <img src="./images/player_icon4.png" class="player-control-icon">
+                    <img src="./images/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" class="progress-bar" value="0" min="0" max="100" step="1">
+                    <span class="tot-time">4:15</span>
+                </div>
+            </div>
+            <div class="controls"></div>
+        </div>
     </div>
 </body>
 </html>
